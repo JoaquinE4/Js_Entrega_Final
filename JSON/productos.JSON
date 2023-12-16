@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "nombre": "Maceta Frida 1",
+        "precio": 19.99,
+        "imagen": "../img/menu/Fridas_sola__1_-removebg-preview.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Maceta Frida 2",
+        "precio": 24.99,
+        "imagen": "../img/menu/Fridas_sola__2_-removebg-preview.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Maceta Frida 3",
+        "precio": 29.99,
+        "imagen": "../img/menu/Fridas_sola__4_-removebg-preview.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Maceta Frida 4",
+        "precio": 22.99,
+        "imagen": "../img/menu/Fridas_sola__5_-removebg-preview.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Maceta Frida 5",
+        "precio": 27.99,
+        "imagen": "../img/menu/Fridas_sola__6_-removebg-preview.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Maceta Frida 6",
+        "precio": 32.99,
+        "imagen": "../img/menu/Fridas_sola__7_-removebg-preview.png"
+    }
+]
