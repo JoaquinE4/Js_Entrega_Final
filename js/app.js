@@ -100,7 +100,7 @@ const actualizarCarritoUI = () => {
     } else {
 
         totalPrecio = 0;
-        carrito.forEach((item, index) => {
+        carrito.map((item, index) => {
             const productoHTML = `
                 <div class="carrito-item">
                     <div>
@@ -144,9 +144,7 @@ const eliminarDelCarrito = (index) => {
 };
 
 const borrarCarrito = () => {
-    carrito = [];
 
-    totalPrecio = 0;
 
     actualizarCarritoUI();
     guardarCarritoEnLocalStorage();
@@ -171,7 +169,7 @@ async function main() {
 
 
     const contenedorProductos = document.getElementById('contenedor-productos');
-    productosInstancias.forEach(producto => {
+    productosInstancias.map(producto => {
     contenedorProductos.innerHTML += `
         <div class="producto card">
         <img src="${producto.img}" alt="${producto.nombre}" class="card-img-top img-fluid">
@@ -183,7 +181,7 @@ async function main() {
         </div>
     `;
     });
-
+    
     popUp();  
     actualizarCarritoUI(); 
 } catch (error) {
@@ -192,3 +190,6 @@ async function main() {
 }
 
 main();
+
+
+
